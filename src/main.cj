@@ -1,6 +1,10 @@
-package cangjie_demo
+package cangjieflops
+
+import cangjieflops.agent.*
+import cangjieflops.scheduler.*
 
 main(): Int64 {
-    println("hello world")
+    let sched = SpuScheduler()
+    sched.start()
     return 0
 }

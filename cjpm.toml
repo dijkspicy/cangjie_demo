@@ -5,7 +5,7 @@
   compile-option = ""
   description = "nothing here"
   link-option = ""
-  name = "cangjie_demo"
+  name = "cangjieflops"
   output-type = "executable"
   src-dir = ""
   target-dir = ""
