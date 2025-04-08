@@ -29,6 +29,7 @@ public class SpuScheduler {
             .till()
 
         while (true) {
+            println("scheduler loop")
             let item = this.queue.poll()
             if (item.isNone()) {
                 sleep(1 * Duration.second)
